@@ -212,7 +212,7 @@ namespace Landis.Extension.BiomassHarvest
                 }
             }
 
-            WritePrescriptionMap(modelCore.CurrentTime);
+            //WritePrescriptionMap(modelCore.CurrentTime); // skip for tuning
             if (biomassMaps != null)
                 biomassMaps.WriteMap(modelCore.CurrentTime);
 
